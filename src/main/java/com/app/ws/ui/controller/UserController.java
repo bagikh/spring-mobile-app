@@ -21,7 +21,7 @@ import com.app.ws.ui.model.response.UserRest;
 
 // Register this class as REST controller and enable receive/send http request/response
 @RestController
-@RequestMapping("users") // http://localhost:8080/users
+@RequestMapping("/users") // http://localhost:8080/users
 public class UserController {
 	
 	@GetMapping
